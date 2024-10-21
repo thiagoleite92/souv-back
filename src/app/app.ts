@@ -5,7 +5,11 @@ import { itemsRoutes } from '../routes/items-route';
 export const app = fastify();
 
 app.register(cors, {
-  origin: '*',
+  origin: [
+    '*',
+    'https://souv-front.vercel.app/',
+    'https://souv-front-60zyb27ax-thiagoleite92s-projects.vercel.app/',
+  ],
 });
 
 app.register(itemsRoutes, { prefix: '/api' });
