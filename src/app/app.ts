@@ -1,6 +1,6 @@
 import fastify from 'fastify';
 import cors from '@fastify/cors';
-import { itemsRoutes } from '../routes/Items';
+import { itemsRoutes } from '../routes/items-route';
 
 export const app = fastify();
 
