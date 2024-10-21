@@ -7,37 +7,37 @@ const main = async () => {
     data: [
       {
         item: 'Maçã',
-        category: 'fruta',
+        category: 'fruit',
         quantity: 2,
         unity: 'unity',
       },
       {
         item: 'Pão francês',
-        category: 'padaria',
+        category: 'bakery',
         quantity: 4,
         unity: 'unity',
       },
       {
         item: 'Brócolis',
-        category: 'legume',
+        category: 'vegetable',
         quantity: 1,
         unity: 'unity',
       },
       {
         item: 'Leite',
-        category: 'bebida',
+        category: 'drink',
         quantity: 2,
         unity: 'liter',
       },
       {
         item: 'Peito de Frango',
-        category: 'carne',
+        category: 'meat',
         quantity: 2,
         unity: 'kg',
       },
       {
         item: 'Mamão',
-        category: 'fruta',
+        category: 'fruit',
         quantity: 1,
         unity: 'unity',
       },

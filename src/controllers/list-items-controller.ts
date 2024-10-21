@@ -1,5 +1,5 @@
 import { Items } from '@prisma/client';
-import { makeListItemsService } from '../factories/make-list-items';
+import { makeListItemsService } from '../factories/make-list-items-service';
 import { FastifyReply, FastifyRequest } from 'fastify';
 
 export const listItemsController = async (
